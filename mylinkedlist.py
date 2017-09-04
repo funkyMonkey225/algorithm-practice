@@ -57,3 +57,17 @@ linked_list.append(37)
 print(linked_list.output())
 linked_list.append(21)
 print(linked_list.output())
+
+
+# Reverse a singly linked list
+
+def list_reverse(linkedlist):
+    current = self.head
+    prev = None
+    while(current != None):
+        nextnode = current.next
+        current.next = prev
+        prev = current
+        current = nextnode
+    
+    return linkedlist
