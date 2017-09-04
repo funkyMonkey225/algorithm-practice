@@ -86,3 +86,26 @@ var maxPrime = primes[primes.length - 1];
 console.log(maxPrime);
 
 
+
+// Trying to optimize
+// for (var x = (600851475143 - 1); x > 2; x--) {
+//     if ((600851475143 % x) === 0) {
+//         for(var i = 2; i < x; i++) {
+//             if ((number % i) === 0) {
+//                 break;
+//             }
+//         }
+//         console.log(x);
+//     }
+// }
+
+// var primes = [];
+
+// function isPrime(number) {
+//     for(var i = 2; i < number; i++) {
+//         if ((number % i) === 0) {
+//             return false;
+//         }
+//     }
+//     primes.push(number);
+// }
