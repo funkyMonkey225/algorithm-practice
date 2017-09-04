@@ -71,3 +71,20 @@ def list_reverse(linkedlist):
         current = nextnode
     
     return linkedlist
+
+# Detect if linked list has any loop (in JS)
+
+bool hasLoop(Node startNode) {
+    Node slowNode = startNode;
+    Node fastNode = startNode;
+
+    while (fastNode != null && fastNode.Next != null) {
+        slowNode = slowNode.Next;
+        fastNode = fastNode.Next.Next;
+
+        if (slowNode == fastNode)
+            return true;
+    }
+
+    return false;
+}
