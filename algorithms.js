@@ -87,6 +87,7 @@ console.log(maxPrime);
 
 
 
+
 // Trying to optimize
 // for (var x = (600851475143 - 1); x > 2; x--) {
 //     if ((600851475143 % x) === 0) {
@@ -109,3 +110,4 @@ console.log(maxPrime);
 //     }
 //     primes.push(number);
 // }
+
