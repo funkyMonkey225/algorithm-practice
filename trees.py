@@ -43,6 +43,9 @@ class BinarySearchTree:
             self.preorder_r(node.left)
         if node.right is not None:
             self.preorder_r(node.right)
+    
+    def delete(self.node):
+        
 
 
 

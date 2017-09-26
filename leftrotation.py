@@ -26,10 +26,10 @@
 
 # Thus, we print the array's final state as a single line of space-separated values, which is 5 1 2 3 4.
 
-for(int i = 0; i < lengthOfArray; i++) {
-    int newLocation = (i + (lengthOfArray - shiftAmount)) % lengthOfArray;
-    a[newLocation] = in.nextInt();
-}
+# for (int i = 0; i < lengthOfArray; i++) {
+#     int newLocation = (i + (lengthOfArray - shiftAmount)) % lengthOfArray;
+#     a[newLocation] = in.nextInt();
+# }
 
 def array_left_rotation(a, n, k):
     for i in range(k):
